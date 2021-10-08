@@ -1,0 +1,786 @@
+/* * {
+    outline: 1px red solid;
+  } */
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body{
+      background-repeat:no-repeat;
+      margin:0;
+      box-sizing:50px;
+      min-width: 960px;
+  }
+  
+  @media screen and (device-width: 700px) {
+    .big_container {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+  }
+  
+  .big_container {
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+  
+  
+  #myBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #A4282A;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+  
+  .panel1{
+      background: url(Assets/LANDING_PAGE.jpg);
+      width: auto;
+      height: 900px;
+      background-size:cover;
+      background-repeat:no-repeat;
+      margin: 0 0 0 0;
+      box-sizing:50px;
+  }
+  
+  .navigasi{
+      position: relative;
+      margin-left: 40%;
+      margin-right: 1%;
+  }
+  
+  .navigasi nav{
+      float: right;
+      padding-top: 50px;
+      padding-left: 100px;
+  }
+  
+  .navigasi a{
+      text-decoration: none;
+      font-weight: bold;
+      color: white;
+      padding-right: 50px;
+      font-family: 'gill sans';
+  }
+  
+  .tulisan{
+      float: left;
+      margin-right: 66%;
+  }
+  
+  .tulisan .logo img{
+      padding-top: 35px;
+      padding-left: 100px;
+      width: 114.98px;
+      height: 115px;
+      margin-bottom: -5px;
+      margin-top: -60px;
+  }
+  
+  .tulisan .logo p{
+      font-size: 58px;
+      padding-left: 110px;
+      margin-top: 1px;
+  }
+  
+  .tulisan .p1{
+      font-size: 58px;
+      padding-left: 110px;
+      margin-bottom: -20px;
+  }
+  
+  .katakata p{
+      padding-left: 115px;
+      font-size: 17.5px;
+      font-family: 'gelasio';
+  
+  }
+  
+  .katakata{
+      margin-top: -50px;
+  }
+  
+  .ContactUs{
+      margin-right: 1%;
+      float: left;
+      width: 194.86px;
+      height: 41px;
+      padding-left: 115px;
+      padding-top: 13px;
+      
+  }
+  
+  .RedBox{
+      width: 194.86px;
+      height: 41px;
+      left: calc(50% - 194.86px/2 - 471.67px);
+      top: calc(50% - 41px/2 - 640.5px);
+  
+      background: #C1393D;
+      border-radius: 10px;
+  }
+  
+  .text{
+      padding-left: 17%;
+      padding-top: 7%;
+      width: 135.91px;
+      height: 20px;
+  
+      font-family: 'Lora';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 111.5%;
+      letter-spacing: 0.09em;
+  
+      color: #FFFFFF;
+  }
+  
+  .grading{
+    margin-left: 325px;
+  }
+  
+  .halal{
+      padding-left: 10px;
+      margin-top: 2px;
+      width: 63px;
+      height: 63px;
+  }
+  
+  .grader{
+      padding-left: 10px;
+      margin-top: -160px;
+      width: 63px;
+      height: 63px;
+  }
+  
+  .panel2{
+      background: #C7AF8B;
+      width: auto;
+      height: 475px;
+      margin: 0 0 0 0;
+      margin-bottom: 25px;
+      display: flex;
+      justify-content: center;
+  }
+  
+  .panel2b{
+    background: #C7AF8B;
+    width: auto;
+    height: 425px;
+    margin-top: -70px;
+    margin-bottom: -16px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* gallery display */
+  
+  /*------------- photos1 ------------- */
+  .photos {
+      padding-top: 50px;
+      display: block;
+    }
+  
+    .photos img{
+        width: 277px;
+        height: 277px;
+    }
+  
+    .photos img:hover{
+        opacity: 0.7;
+    }
+  
+    .photos ul {
+      list-style: none;
+    }
+  
+    .photos ul li { 
+        display: inline;
+        list-style: none;
+        float: left;
+        padding: 0 10px 0 0;
+        text-align:center; 
+        margin-bottom: 25px;
+    }
+  
+    .photos ul li a {
+  
+      display: block;
+      -webkit-transition: all 0.3s linear;
+      -moz-transition: all 0.3s linear;
+      transition: all 0.3s linear;
+      text-decoration: none;
+      color: #665344;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .photos ul li a:hover {
+      opacity: 1.0;
+    }
+  
+  /*------------- photos2 ------------- */
+  
+  .photos2 {
+      display: block;
+    }
+  
+    .photos2 img{
+        width: 277px;
+        height: 277px;
+    }
+    
+    .photos2 img:hover{
+        opacity: 0.7;
+      }
+  
+    .photos2 ul {
+      list-style: none;
+    }
+  
+    .photos2 ul li { 
+        display: inline;
+        list-style: none;
+        float: left;
+        padding: 0 10px 0 0;
+        text-align:center; 
+    }
+  
+    .photos2 ul li a {
+  
+      display: block;
+      -webkit-transition: all 0.3s linear;
+      -moz-transition: all 0.3s linear;
+      transition: all 0.3s linear;
+      text-decoration: none;
+      color: #665344;
+      font-size: 24px;
+      font-weight: bold;
+    }
+  
+  /* ------------------ end ------------------*/
+  
+  
+  
+  /* ------------ MODAL WINDOWS FOR IMAGE --------------*/
+  #myImg01, #myImg02, #myImg03, #myImg04, #myImg05, #myImg06, #myImg07, #myImg08 {
+      cursor: pointer;
+      transition: 0.3s;
+    }
+  
+    /* The Modal (background) */
+    .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: none; /* Enable scroll if needed */
+      margin-top: -50px;
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+    
+    /* Modal Content (image) */
+    .modal-content {
+      margin: auto;
+      display: block;
+      width: 100%;
+      max-width: 1169px;
+      background-color: #f8efe3;
+    }
+    
+    /* Caption of Modal Image */
+    #caption {
+      margin: auto;
+      display: block;
+      width: 80%;
+      max-width: 700px;
+      text-align: center;
+      color: #ccc;
+      padding: 10px 0;
+      height: 150px;
+    }
+    
+    /* Add Animation */
+    .modal-content, #caption {  
+      -webkit-animation-name: zoom;
+      -webkit-animation-duration: 0.1s;
+      animation-name: zoom;
+      animation-duration: 0.1s;
+    }
+    
+    @-webkit-keyframes zoom {
+      from {-webkit-transform:scale(0.5)} 
+      to {-webkit-transform:scale(1)}
+    }
+    
+    @keyframes zoom {
+      from {transform:scale(0.5)} 
+      to {transform:scale(1)}
+    }
+    
+    /* The Close Button */
+    .close {
+      position: absolute;
+      top: 15px;
+      right: 35px;
+      color: #f1f1f1;
+      font-size: 40px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    
+    .close:hover,
+    .close:focus {
+      color: #bbb;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    
+    /* 100% Image Width on Smaller Screens */
+    @media only screen and (max-width: 700px){
+      .modal-content {
+        width: 100%;
+      }
+    }
+  
+  .container{
+      background-color: #f8efe3;
+      position: relative;
+      height: 80%;
+      margin: 0 auto;
+      max-width: max-content;
+      max-height: max-content;
+  }
+  
+  .container{  
+      -webkit-animation-name: zoom;
+      -webkit-animation-duration: 0.6s;
+      animation-name: zoom;
+      animation-duration: 0.6s;
+    }
+    
+    @-webkit-keyframes zoom {
+      from {-webkit-transform:scale(0)} 
+      to {-webkit-transform:scale(1)}
+    }
+    
+    @keyframes zoom {
+      from {transform:scale(0)} 
+      to {transform:scale(1)}
+    }
+  
+  /* ------------ MODAL WINDOWS FOR TEXT --------------*/
+  
+  .myText {
+      cursor: pointer;
+      transition: 0.3s;
+    }
+  
+    .myText:hover {opacity: 0.7;}
+    
+    /* The Modal (background) */
+    .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      padding-top: 100px; /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: none; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+    
+    /* Modal Content (image) */
+    .modal-content {
+      padding:1px 1px 1px 1px;
+      display: block;
+      max-width: 100%;
+      max-height: 100%;
+      width: auto;
+      height: auto;
+      background-color: #f8efe3;
+    }
+    
+    /* Caption of Modal Image */
+    #caption {
+      margin: auto;
+      display: block;
+      width: 80%;
+      max-width: 700px;
+      text-align: center;
+      color: #ccc;
+      padding: 10px 0;
+      height: 150px;
+    }
+    
+    /* Add Animation
+    .modal-content, #caption {  
+      -webkit-animation-name: zoom;
+      -webkit-animation-duration: 2s;
+      animation-name: zoom;
+      animation-duration: 2s;
+    } */
+    
+    /* @-webkit-keyframes zoom {
+      from {-webkit-transform:scale(0)} 
+      to {-webkit-transform:scale(1)}
+    } */
+    
+    /* @keyframes zoom {
+      from {transform:scale(0)} 
+      to {transform:scale(1)}
+    } */
+    
+    /* The Close Button */
+    .close {
+      position: absolute;
+      top: 15px;
+      right: 35px;
+      color: #f1f1f1;
+      font-size: 40px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    
+    .close:hover,
+    .close:focus {
+      color: #bbb;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    
+    /* 100% Image Width on Smaller Screens */
+    @media only screen and (max-width: 700px){
+      .modal-content {
+        width: 100%;
+      }
+    }
+  
+  /*----------------- Panel 3 -----------------*/
+  .panel3 {
+    background: url(Assets/wallpaper\ tembok.jpg);
+    width: auto;
+    height: 900px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    margin: 0 0 0 0;
+    box-sizing:50px;
+  }
+  
+  /*------ Kiri ------*/
+  .kiri{
+    float: left;
+  }
+  
+  .logop3 img{
+  padding-top: 42px;
+  padding-left: 150px;
+  width: 114.98px;
+  height: 115px;
+  margin-bottom: -5px;
+  margin-top: -10px;
+  }
+  
+  .p2 {
+    padding-left: 284px;
+    font-size: 36px;
+    font-family: 'lora';
+    color: #665344;
+    margin-top: -77px;
+    font-weight: 490;
+  }
+  
+  .panduan img {
+  padding-top: 3px;
+  padding-left: 137px;
+  width: 86x;
+  height: 105px;
+  margin-bottom: -5px;
+  margin-top: -10px;
+  }
+  
+  .p3 {
+  padding-left: 210px;
+  font-size: 13px;
+  font-family: 'lora';
+  color: #665344;
+  margin-top: -64px;
+  margin-right: 10%;
+  letter-spacing: 0.05em;
+  }
+  
+  /*----- Kanan -----*/
+  
+  .available p{
+    position: relative;
+    color: #665344;
+    font-size: 15px;
+    font-family: 'lora';
+    margin-left: 48%;
+    padding-top: 65px;
+    letter-spacing: 0.5px;
+  }
+  
+  .table3{
+    margin-top: -20px;
+    padding-left: 40.1%;
+  }
+  
+  table td{
+    padding-right: 9px;
+  }
+  
+  table img{
+    width: 90px;
+    height: 90px;
+    padding-left: -2px;
+  }
+  
+  .wa_logo{
+    padding-top: 4%;
+  }
+  
+  .button3{
+    background-color: #C7AF8B;
+    border: none;
+    border-radius: 19px;
+    padding: 8px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .font3{
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .buttonpanel3{
+    margin-top: -15px;
+    padding-left: 41.6%;
+  }
+  
+  /*----- hover Panel 3 -----*/
+  .hover_p3{
+    /* padding-top: 18.6%; */
+    padding-top: 250px;
+    text-align: center;
+    margin-top: -8%;
+  }
+  
+  .penutup_hover{
+    width: 100%;
+    margin-top: -20.5%;
+  }
+  
+  /* .container_p3 {
+  } */
+  
+  .hover_p3 .original{
+    padding-left: 1%;
+    width: 15%;
+    height: 15%;
+  }
+  
+  .original:hover {
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+    margin-top: -2.5%;
+    padding-bottom: 2.5%;
+  }
+  
+  .hover_p3 .special{
+    padding-left: 1.4%;
+    width: 15%;
+    height: 15%;
+  }
+  
+  .special:hover {
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+    margin-top: -2.5%;
+    padding-bottom: 2.5%;
+  }
+  
+  .hover_p3 .lanang{
+    padding-left: 0.6%;
+    width: 15%;
+    height: 15%;
+  }
+  
+  .lanang:hover {
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+    margin-top: -2.5%;
+    padding-bottom: 2.5%;
+  }
+  
+  .hover_p3 .gold{
+    padding-left: 1%;
+    width: 15%;
+    height: 15%;
+  }
+  
+  .gold:hover {
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+    margin-top: -2.5%;
+    padding-bottom: 2.5%;
+  }
+  
+  .hover_p3 .limited{
+    padding-left: 0.8%;
+    width: 15%;
+    height: 15%;
+  }
+  
+  .limited:hover {
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+    margin-top: -2.5%;
+    padding-bottom: 2.5%;
+  }
+  
+  /*----- Panel 4 -----*/
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  
+  .panel4{
+    background-color: white;
+    height: 250px;
+  }
+  
+  .column {
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  /*----- Left -----*/
+  .left{
+    width: 13%;
+    padding-left: 60px;
+    border-right: 1px solid black;
+  }
+  
+  .left a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .left li{
+    padding-top: 10px;
+  }
+  
+  .left li:first-child {
+    margin-top:0;
+  }
+  
+  .left li::marker {
+    font-size: 25px;
+  }
+  
+  .left ul li a:hover{
+    font-size: 22px;
+  }
+  
+  
+  /*----- middle ----- */
+  .middle {
+    width: 25%;
+    padding-top: 1%;
+    padding-left: 3%;
+  }
+  
+  .middle font{
+    font-weight: bolder;
+    font-size: 50px;
+  }
+  
+  .middle ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .middle .fa-li{
+    padding-top: 10px;
+  }
+  
+  .middle li {
+    padding-top: 10px;
+    padding-left: 1.3em;
+  }
+  
+  .middle li:before {
+    display: inline-block;
+    margin-left: -1.3em; /* same as padding-left set on li */
+    width: 1.3em; /* same as padding-left set on li */
+  }
+  
+  /*----- Right -----*/
+  
+  .right {
+    width: 50%;
+  }
+  
+  .flex {
+    display:flex;
+    justify-content: right;
+    padding-top: 125px;
+  }
+  
+  .flex div{
+    padding-right: 50px;
+  }
+  
+  .flex img {
+    width:50px;
+    height: 50px;
+  }
+  
+  .flex img:hover{
+    transform: translateY(-10px);
+  }
+  
+  /*----- Panel 5 -----*/
+  footer{
+    display: flex;
+    justify-content: center;
+    background-color: #A4282A;
+    height: 49px;
+    width: 100%;
+  }
+  
+  footer p{
+    color: white;
+  }

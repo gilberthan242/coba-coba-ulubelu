@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ulubelu Coffee</title>
+    <link rel="icon" href="Assets/ulubelu logo circle.png" type="image/x-icon">
+    <script type="text/javascript" src="mobile.js"></script>
+    <link rel="stylesheet" href="mobile(bahasa).css" media="screen">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="flag-icon-css-master/css/flag-icon.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="panel1" id="Home">
+        <div class="navigasi">
+            <nav>
+                <a href="mobile.html"><span class="flag-icon flag-icon-gb"></span></a>
+                <a href="#Home">HOME</a>
+                <a href="#AboutUs">TENTANG KAMI</a>
+                <a href="#Products">PRODUK</a>
+                <a href="#ContactUs">HUBUNGI KAMI</a>
+            </nav>
+        </div>
+
+        <div class="logo">
+            <img src="Assets/ulubelu logo circle(tiny).png" alt="Logo Ulubelu">
+        </div>
+
+        <div class="tulisan">
+            <p>Bringing you the coffee beans directly from its sources, Ulubelu Mountainous, Lampung, Indonesia. We present you with the finest robusta coffee grown and harvested by the local farmers in Lampung who had dedication in the industry for decades.</p> 
+            <p>To maximize the rich flavor each coffee bean, Ulubelu Coffee has adhered to the best environmental practice for processing them in the most sustainable manner. Since 2012, Ulubelu Coffee has been awarded with Certification as well accreditation from the National Ministry of Environment and Forestry of Indonesia.</p>
+            <p>With an in-house R-Grader, all batches have been processed thoroughly for quality control. Only the most excellent coffee will be refined to be our Grade 1 Single Origin Robusta Ulubelu Coffee.</p>
+        </div>
+
+        <div class="ContactUs">
+            <a href="#ContactUs" style="text-decoration: none;"><div class="RedBox">
+                <div class="text">HUBUNGI KAMI</div>
+            </div></a>
+            <img class="Grader" src="assets/q grader.png" alt="grader">
+            <img class="Halal" src="assets/halal.png" alt="Halal">
+        </div>
+
+    </section>
+
+    <section class="panel2" id="AboutUs">
+        <div class="content1">
+            <ul>
+                <li class="content_kiri"><span><img id="myImg01" src="Assets/About US.jpg" alt="About Us" onclick="onClick(myImg10)"/></span>
+                    <img id="myImg10" src="Assets/panel2_mobile_1.jpg" style="display:none;" alt="Ulubelu">
+                <a class="myText" onclick="onClick(myImg10)"><span>TENTANG KAMI</span></a>
+                </li>
+                <li class="content_kanan"><img id="myImg02" src="Assets/packaging new.jpg" alt="Packaging" onclick="onClick(myImg09)">
+                    <img id="myImg09" src="Assets/panel2_mobile_2.jpg" style="display:none;" alt="Ulubelu">
+                <a class="myText" onclick="onClick(myImg09)"><span>PENGEMASAN</span></a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="content2">
+            <ul>
+                <li class="content_kiri"><img id="myImg03" src="Assets/CERTIFIED FARM.jpg" alt="Farm" onclick="onClick(myImg11)">
+                    <img id="myImg11" src="Assets/panel2_mobile_3.jpg" style="display:none;" alt="Ulubelu">
+                <a class="myText" onclick="onClick(myImg11)"><span>PERTANIAN<br>BERSERTIFIKAT</span></a>
+                </li>
+                <li class="content_kanan"><img id="myImg04" src="Assets/ULUBELU LIMITED.jpg" alt="Ulubelu" onclick="onClick(myImg12)">
+                    <img id="myImg12" src="Assets/panel2_mobile_4.jpg" style="display:none;" alt="Ulubelu">
+                <a class="myText" onclick="onClick(myImg12)"><span>ULUBELU<br>  LIMITED</span><br></a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="content2">
+            <ul>
+                <li class="content_kiri"><img id="myImg07" src="Assets/Fine Robusta Beans.jpg" alt="Robusta" onclick="onClick(myImg15)">
+                    <img id="myImg15" src="Assets/panel2_mobile_5.jpg" style="display:none;" alt="Robusta">
+                <a class="myText" onclick="onClick(myImg15)"><span>100% FINE<br>ROBUSTA BEANS</span></a>
+                </li>
+                <li class="content_kanan"><span><img id="myImg05" src="Assets/PROCESS.jpg" alt="Process" onclick="onClick(myImg13)"/></span>
+                    <img id="myImg13" src="Assets/Pop Up 6 - Process from bean to cup.jpg" style="display:none;" alt="Process"/>
+                <a class="myText" onclick="onClick(myImg13)"><span>PROCESS FROM<br>SEEDS TO CUP</span></a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="content2">
+            <ul>
+                <li class="content_kiri sendiri"><img id="myImg06" src="Assets/handpicked.jpg" alt="Handpicked" onclick="onClick(myImg14)">
+                    <img id="myImg14" src="Assets/Pop Up 7 - Handpicked process (revisi) (1).jpg" style="display:none;" alt="Handpicked">
+                <a class="myText" onclick="onClick(myImg14)"><span>PROSES PEMILIHAN<br>DENGAN TANGAN</span></a>
+                </li>
+                <li class="content_kanan"><img id="myImg08" src="Assets/petani kopi.jpg" alt="Petani" onclick="onClick(myImg16)">
+                    <img id="myImg16" src="Assets/panel2_mobile_8.jpg" style="display:none;" alt="Petani">
+                <a class="myText" onclick="onClick(myImg16)"><span>PETANI<br>DENGAN DEDIKASI</span></a>
+                </li>
+            </ul>
+        </div>
+
+        <div id="modal01" class="modal" onclick="this.style.display='none'">
+            <div class="container">
+                <img class="modal-content" id="img01">
+            </div>
+            <div id="caption"></div>
+        </div>
+        
+    </section>
+
+    <section class="panel3" id="Products">
+        <div class="logo_p3">
+            <img src="Assets/ulubelu logo circle(tiny).png" alt="Ulubelu">
+        </div>
+        <div class="product">
+            <font>PRODUCTS</font>
+        </div>
+        <div class="available">
+            <font>Tersedia di:</font>
+        </div>
+        <div class="table3">
+            <table>
+                <tr>
+                    <td><a href="https://www.tokopedia.com/ulubelucoffee?q=ulubelu%20coffee&srp_page_id=2272052&srp_page_title=ulubelu%20coffee&navsource=shop"><img src="Assets/Tokopedia logo fix.png" alt="Tokopedia"/></td></a>
+                    <td><a href="https://shopee.co.id/ulubelucoffee?categoryId=100629&itemId=5341166671"><img src="Assets/shopee logo fix.png" alt="Shoppee"/></td></a>
+                    <td class= "wa_logo"><a href="https://wa.wizard.id/234160"><img src="Assets/whatsapp logo fix 4.png" alt="Whatsapp"/></td></a>
+                </tr>
+            </table>
+        </div>
+        <div class="buttonpanel3">
+            <a href="https://linktr.ee/ulubelu_coffee"><div class="button3">
+                <img src="Assets/Add to Cart icon.png" style="width: 15px; height: 15px;" alt="Cart"><font class="font3"s>Belanja Sekarang</font>
+            </div></a>
+        </div>
+        
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <img src="Assets/Original Hovering(png).png" alt="Original">
+            </div>
+            
+            <div class="mySlides fade special">
+              <img src="Assets/Special hovering mobile(png).png" alt="Special">
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="Assets/Lanang Hovering(png).png" alt="Lanang">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="Assets/Gold Hovering(png).png" alt="Gold">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="Assets/Limited Hovering(png).png" alt="Lanang">
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            </div>
+    </section>
+
+    <section class="panel4" id="ContactUs">
+        <font>Hubungi Kami</font>
+        <ul class="lis1">
+            <li class="email_icon">info@ulubelu.com</li>
+            <li class="phone">(+62) 82113129510</li>
+            <li class="wa">(0721) 488806</li>
+        </ul>
+        <div class="icon_akhir">
+            <div class="flex">
+                <div class="facebook">
+                    <a href="https://www.facebook.com/ulubelucoffee/ "><img src="Assets/facebook logo fix.png" /></a>
+                </div>
+                <div class="instagram">
+                    <a href="https://www.instagram.com/ulubelu_coffee/ "><img src="Assets/instagram logo fix.png" /></a>
+                </div>
+                <div class="whatsapp">
+                    <a href="https://wa.wizard.id/234160"><img src="Assets/whatsapp logo fix.png" /></a>
+                </div>
+                <div class="telfon">
+                    <a href="tel:082113129510"><img src="Assets/logo-telfon.jpg" /></a>
+                </div>
+                <div class="ulubelulogo">
+                    <a href="#"><img src="Assets/ulubelu logo circle.png" /></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer_nav">
+            <ul >
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#AboutUs">Tentang Kami</a></li>
+                <li><a href="#Products">Produk</a></li>
+                <li><a href="https://linktr.ee/ulubelu_coffee">Pesan</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>Ulubelu Coffee &copy; 2021</p>
+    </footer>
+
+    <script type="text/javascript">
+        if (screen.width > 1025) {
+        document.location = "index.html";
+        }
+
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace("active", "");
+        }
+        slides[slideIndex-1].style.display = "flex";  
+        dots[slideIndex-1].className += " active";
+        }
+    </script>
+</body>
+</html>
