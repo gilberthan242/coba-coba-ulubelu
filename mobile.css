@@ -691,3 +691,34 @@ footer{
 footer p{
   color: white;
 }
+
+/* PANEL GOJEK DAN GRABFOOD */
+
+.panel3b {
+  background-size:contain;
+  background-color: rgb(231, 229, 229);
+  display: flex;
+  justify-content: center;
+
+}
+
+.del {
+  margin-top: -5%;
+  margin-bottom: -5%;
+  padding-left: 50px;
+}
+
+.del td{
+  padding-right: 15px;
+}
+
+.del img{
+  width: 70%;
+  height: 70%;
+}
+
+.del .text_p3b{
+  height: 100px;
+  width: 150px;
+  margin-left: -10%;
+}
